@@ -6,15 +6,32 @@
 
 }
 
+
+
+
 body {
     background-color: #eeeee6;
 }
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 p{
     font-size: 1rem;
 
+}
+
+.image_projet_pro {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+
+    color: inherit;         /* Garde la couleur de texte par défaut */
+    width: fit-content;     /* Adapte la largeur du lien à celle de l'image */
+    margin: 0 auto;         /* Centre le bloc entier sur la page */
+}
+
+.image_projet_pro p {
+    margin-top: 10px;       /* Ajoute un petit espace entre l'image et le texte */
+    text-align: center;
 }
